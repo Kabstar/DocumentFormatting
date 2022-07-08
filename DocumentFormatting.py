@@ -1,7 +1,7 @@
 import pandas as pd
 
 #(reading unformatted data)
-df_input = pd.read_excel(r"C:\Users\kabir\Desktop\Xtracta work\FormattingDocuments\Unformatted.xlsx")
+df_input = pd.read_excel(r"Filepath\Unformatted.xlsx")
 
 #Creating an output df with empty headers for class and training status
 column_names = ["Class", "TrainingStatus"]
@@ -61,4 +61,4 @@ print(df_output)
 #generating csv with filepath
 #df_output.to_csv("C:/Users/kabir/Desktop/Xtracta work/outputfile3.csv", index=False)
 #generating excel with filepath
-df_output.to_excel("C:/Users/kabir/Desktop/Xtracta work/Formatted.xlsx", index = False, header=True)
+df_output.to_excel("Filepath/Formatted.xlsx", index = False, header=True)
